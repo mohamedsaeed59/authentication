@@ -1,0 +1,8 @@
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/global.scss";
+
+@import './components/navbar.scss';
+@import './components/home.scss';
+@import './components/login.scss';

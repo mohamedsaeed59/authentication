@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  overflow: auto;
+  direction: ltr;
+  font-family: "Urbanist" !important; }
+
+.signUp,
+.Login {
+  padding: 40px 0;
+  background-color: #FCEA47; }
+  .signUp__Content,
+  .Login__Content {
+    border-radius: .5rem;
+    padding: 3rem 6rem;
+    border: 1px solid #FCEA47;
+    background-color: #FCEA47; }
+    @media only screen and (max-width: 768px) {
+      .signUp__Content,
+      .Login__Content {
+        padding: 1.5rem 1rem; } }
+    .signUp__Content__Header,
+    .Login__Content__Header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2.5rem; }
+      .signUp__Content__Header .boxImage,
+      .Login__Content__Header .boxImage {
+        background-color: #FCEA47;
+        border-radius: 50%;
+        width: 12rem;
+        height: 12rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem; }
+      .signUp__Content__Header .title,
+      .Login__Content__Header .title {
+        color: #FCEA47;
+        margin: 0;
+        margin-bottom: .5rem;
+        font-size: 1.80188rem;
+        font-weight: 600; }
+      .signUp__Content__Header .accountDetails,
+      .Login__Content__Header .accountDetails {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #FCEA47;
+        text-align: center; }
+    .signUp__Content__Form,
+    .Login__Content__Form {
+      display: flex;
+      flex-direction: column; }
+      .signUp__Content__Form .label-input,
+      .Login__Content__Form .label-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem; }
+        .signUp__Content__Form .label-input input,
+        .Login__Content__Form .label-input input {
+          height: 2.5rem;
+          border: 1px solid #FCEA47;
+          border-radius: .38rem;
+          text-indent: 1rem; }
+          .signUp__Content__Form .label-input input:focus-within,
+          .Login__Content__Form .label-input input:focus-within {
+            outline: none; }
+        .signUp__Content__Form .label-input input[type="password"],
+        .Login__Content__Form .label-input input[type="password"] {
+          margin-bottom: 2.5rem; }
+        .signUp__Content__Form .label-input .err,
+        .Login__Content__Form .label-input .err {
+          font-size: .75rem;
+          color: #FCEA47;
+          margin-top: .25rem; }
+        .signUp__Content__Form .label-input.error input,
+        .Login__Content__Form .label-input.error input {
+          border-color: #FCEA47; }
+      .signUp__Content__Form .checkBox,
+      .Login__Content__Form .checkBox {
+        margin-right: 0;
+        justify-content: center;
+        margin-bottom: 1rem; }
+        .signUp__Content__Form .checkBox .info,
+        .Login__Content__Form .checkBox .info {
+          color: #FCEA47;
+          font-size: 0.88875rem;
+          font-weight: 500; }
+          .signUp__Content__Form .checkBox .info a,
+          .Login__Content__Form .checkBox .info a {
+            text-decoration: none;
+            color: #FCEA47; }
+      .signUp__Content__Form .btn-enter,
+      .Login__Content__Form .btn-enter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FCEA47;
+        color: #FCEA47;
+        border: none;
+        font-size: 1rem;
+        padding: .88rem 4rem;
+        border-radius: .5rem;
+        margin-bottom: 2.5rem;
+        cursor: pointer; }
+        .signUp__Content__Form .btn-enter img,
+        .Login__Content__Form .btn-enter img {
+          margin-right: .5rem; }
+    .signUp__Content .or,
+    .Login__Content .or {
+      color: #FCEA47;
+      font-size: 1.25rem;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2.5rem; }
+      .signUp__Content .or:after,
+      .Login__Content .or:after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        background-color: #FCEA47;
+        margin-left: .5rem; }
+      .signUp__Content .or:before,
+      .Login__Content .or:before {
+        content: '';
+        height: 1px;
+        width: 100%;
+        background-color: #FCEA47;
+        margin-right: .5rem; }
+    .signUp__Content__Social .Box,
+    .Login__Content__Social .Box {
+      padding: .75rem 1.25rem;
+      border-radius: .25rem;
+      border: 1px solid #FCEA47;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-bottom: .5rem; }
+      .signUp__Content__Social .Box span,
+      .Login__Content__Social .Box span {
+        font-size: 1.125rem;
+        font-weight: 400;
+        color: #FCEA47;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; }
+      .signUp__Content__Social .Box img,
+      .Login__Content__Social .Box img {
+        display: flex;
+        justify-content: flex-start; }
